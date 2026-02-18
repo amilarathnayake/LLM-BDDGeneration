@@ -1,4 +1,4 @@
-# BDD Scenario Generator
+# BDD Scenario Generation
 
 Generating Behavior-Driven Development (BDD) scenarios using Large Language Models (LLMs) with comprehensive evaluation metrics.
 
@@ -10,7 +10,6 @@ Generating Behavior-Driven Development (BDD) scenarios using Large Language Mode
   - Text similarity metrics (BLEU, METEOR, ROUGE-L)
   - Semantic similarity (BERTScore, SBCS, SBED, USECS)
   - LLM-based evaluation (GPT-4, Claude, DeepSeek)
-- **Modular Architecture**: Easy to extend with new generators or evaluators
 
 ## Installation
 
@@ -63,7 +62,7 @@ gemini=GeminiConfig(
 1. Prepare your input data in Excel/CSV format with columns:
    - `ID`: Unique identifier
    - `User Story`: User story 
-   - `Requirements`: Detailed description
+   - `Requirements`: Detailed requirement description
    - `Manual Scenario`: Reference BDD scenario
 
 2. Update the file path in `config.py`:
