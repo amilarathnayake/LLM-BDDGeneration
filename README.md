@@ -1,12 +1,8 @@
 # BDD Scenario Generator
 
-An automated system for generating Behavior-Driven Development (BDD) scenarios using Large Language Models (LLMs) with comprehensive evaluation metrics.
+Generating Behavior-Driven Development (BDD) scenarios using Large Language Models (LLMs) with comprehensive evaluation metrics.
 
-## Overview
-
-This tool generates BDD scenarios from requirements using multiple LLMs (GPT-4, Claude, Gemini) and evaluates them using both traditional text similarity metrics and LLM-based evaluation approaches.
-
-## Features
+## Overview of Features
 
 - **Multiple LLM Support**: Generate scenarios using GPT-4, Claude 3.5, or Gemini
 - **Flexible Prompting Strategies**: Zero-shot, Few-shot, and Chain-of-Thought prompting
@@ -66,9 +62,9 @@ gemini=GeminiConfig(
 
 1. Prepare your input data in Excel/CSV format with columns:
    - `ID`: Unique identifier
-   - `User Story`: User story (optional)
-   - `Requirements`: Detailed requirements
-   - `Manual Scenario`: Reference BDD scenario for comparison
+   - `User Story`: User story 
+   - `Requirements`: Detailed description
+   - `Manual Scenario`: Reference BDD scenario
 
 2. Update the file path in `config.py`:
 ```python
